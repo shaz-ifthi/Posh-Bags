@@ -4,7 +4,7 @@ var db = require("./models")
 var app = express()
 var bodyparser = require('body-parser')
 var path = require('path')
-var PORT = process.env.PORT || 3000
+var PORT = process.env.PORT || 3001
 
 app.use(express.static(path.join(__dirname, 'public')))
 //middleware
